@@ -243,7 +243,7 @@ resource "aws_lb" "my-aws-alb" {
   ip_address_type    = "ipv4"
   load_balancer_type = "application"
 
-  #enable_deletion_protection = true
+  enable_deletion_protection = true
 }
 
 
